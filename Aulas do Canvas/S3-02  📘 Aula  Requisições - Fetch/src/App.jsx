@@ -17,6 +17,7 @@ function App() {
         <li key={fruits.id}>
           {fruits.name}
           {fruits.price}
+          {fruits.category}
         </li>
       ) )}
     </>
